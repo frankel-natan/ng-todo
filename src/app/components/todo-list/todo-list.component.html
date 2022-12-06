@@ -1,0 +1,13 @@
+<div class="todo-list" >
+  <div class="list-moc"*ngFor="let item of Todos; let i=index">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{item.titel|uppercase}}</mat-card-title>
+        <mat-card-subtitle>{{item.endDate}}</mat-card-subtitle>
+      </mat-card-header>
+      </mat-card>
+      <mat-divider></mat-divider>
+  </div>
+
+
+</div>
